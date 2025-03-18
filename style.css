@@ -4,6 +4,12 @@ body{
 h1{
     font-size: 30px;
 }
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
 .name-highlight{
     color: orange;
 }
@@ -14,5 +20,31 @@ h1{
     padding-left: 2%;
 }
 .half-width img {
-    width: 100%;
+    width: 60%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.experience-area {
+    
+    float: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
 }
